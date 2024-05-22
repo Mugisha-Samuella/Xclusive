@@ -17,6 +17,7 @@ const Navbar = () => {
         <li><a href=""></a>Login/SignUp</li>
       </ul>
       <div className='flex flex-row gap-4'>
+      <input type="text" placeholder='What are you looking for?' className='bg-slate-100 rounded-md md:p-3 pt-3 focus:outline-none text-sm'/>
         <HeartIcon/>
         <Cart/>
         <Hamburger/>
