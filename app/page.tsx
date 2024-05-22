@@ -1,10 +1,9 @@
 import React from 'react'
+import Home from "./Pages/Home"
 
 const page = () => {
   return (
-    <div className='text-xl text-orange-800'>
-  
-    </div>
+   <Home/>
   )
 }
 
