@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <div className="flex flex-row justify-between pt-8 p-5">
         <h1 className="font-Inter font-bold text-xl ">Xclusive</h1>
-        <ul className="md:flex gap-10 font-Inter">
+        <ul className="hidden md:flex gap-10 font-Inter">
           <li>
             <a href=""></a>Home
           </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex flex-row gap-4">
-        <div className="flex flex-row"> 
+        <div className="hidden md:flex md:flex-row"> 
             <input
               type="text"
               placeholder="What are you looking for?"
