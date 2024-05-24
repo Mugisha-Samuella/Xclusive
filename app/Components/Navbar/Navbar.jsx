@@ -7,7 +7,7 @@ import Search from "../Icons/Search";
 const Navbar = () => {
   return (
     <>
-      <div className="flex flex-row justify-between pt-8 p-5">
+      <div className="flex flex-row justify-between pt-8 p-6">
         <h1 className="font-Inter font-bold text-xl ">Xclusive</h1>
         <ul className="hidden md:flex gap-10 font-Inter">
           <li>
@@ -26,7 +26,7 @@ const Navbar = () => {
             <a href=""></a>Login/SignUp
           </li>
         </ul>
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row gap-6">
           <HeartIcon />
           <Cart />
           <Hamburger />
