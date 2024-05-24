@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const Hamburger = () => {
   return (
     <div>
-      <RxHamburgerMenu style={{width:'24px', height:'24px'}} />
+      <RxHamburgerMenu style={{width:'27px', height:'27px'}} />
     </div>
   )
 }

@@ -27,20 +27,15 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="flex flex-row gap-4">
-        <div className="hidden md:flex md:flex-row"> 
-            <input
-              type="text"
-              placeholder="What are you looking for?"
-              className="bg-slate-100 relative rounded-md md:p-3 pt-3 focus:outline-none text-sm"
-            />
-            <Search/>
-          </div>
           <HeartIcon />
           <Cart />
           <Hamburger />
         </div>
       </div>
       <hr />
+      <div className="p-6 pt-8 ">
+        <Search className="rounded-lg" />
+      </div>
     </>
   );
 };
