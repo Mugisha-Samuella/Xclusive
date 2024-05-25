@@ -5,7 +5,7 @@ import Hero from '../Components/Hero/Hero'
 
 const Home = () => {
   return (
-    <div>
+    <div className='flex flex-col'>
       <Navbar/>
       <Sidebar/>
       <Hero/>
