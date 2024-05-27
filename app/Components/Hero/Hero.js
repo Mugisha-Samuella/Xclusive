@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className="p-6 ">
+    <div className="px-6 pt-10 flex flex-col">
       <div className="text-white bg-black ">
         <div className="p-4">
           <div className="flex flex-row gap-5 ">
