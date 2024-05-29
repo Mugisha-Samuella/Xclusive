@@ -4,7 +4,7 @@ import { LuSearch } from "react-icons/lu";
 const Search = () => {
   return (
     <>
-    <div className='flex flex-row justify-center bg-gray-100 items-center'>
+    <div className='flex flex-row justify-center bg-gray-100 items-center md:hidden'>
         <input 
               type="text"
               placeholder="What are you looking for? ..not yet active"

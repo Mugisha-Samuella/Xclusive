@@ -19,17 +19,17 @@ const Categories = () => {
       <LuSmartphone style={{width: '54px', height:'54px'}} />
       <h3>Phones</h3>
     </button>
-      <button className='border-gray-300 rounded-md border-[0.5px] p-2 min-w-[10rem]'>
-      <CiDesktop />
+      <button className='border-gray-300 rounded-md border-[0.5px] flex flex-col p-10 justify-center items-center'>
+      <CiDesktop style={{width: '54px', height:'54px'}} />
       <h3>Laptops</h3></button>
-      <button className='border-gray-300 rounded-md border-[0.5px] p-2 min-w-[10rem]'>
-      <TbDeviceWatchStats />
+      <button className='border-gray-300 rounded-md border-[0.5px] flex flex-col p-10 justify-center items-center'>
+      <TbDeviceWatchStats  style={{width: '54px', height:'54px'}}/>
       <h3>Watches</h3></button>
-      <button className='border-gray-300 rounded-md border-[0.5px] p-3 '>
-      <TbCamera />
+      <button className='border-gray-300 rounded-md border-[0.5px] flex flex-col p-10 justify-center items-center'>
+      <TbCamera style={{width: '54px', height:'54px'}} />
       <h3>Camera</h3></button>
-      <button className='border-gray-300 rounded-md border-[0.5px] p-3 '>
-      <FiHeadphones />
+      <button className='border-gray-300 rounded-md border-[0.5px] flex flex-col p-10 justify-center items-center'>
+      <FiHeadphones style={{width: '54px', height:'54px'}} />
       <h3>Headphones</h3></button>
     </div>
     </div>

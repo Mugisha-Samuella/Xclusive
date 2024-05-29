@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import heroImage from "../../../public/New folder/hero_endframe.webp";
+import heroImage from "../../../public/Images/hero_endframe.webp";
 import { FaApple } from "react-icons/fa";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className="px-6 pt-10 flex flex-col">
-      <div className="text-white bg-black ">
+    <div className="px-6 pt-10 md:pt-0 flex flex-col">
+      <div className="text-white bg-black flex-col flex md:flex-row">
         <div className="p-4">
           <div className="flex flex-row gap-5 ">
             <FaApple style={{ width: "27px", height: "27px" }} />

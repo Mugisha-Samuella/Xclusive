@@ -9,8 +9,10 @@ const Home = () => {
   return (
     <div className='flex flex-col'>
       <Navbar/>
+      <div className='flex flex-col md:flex-row'>
       <Sidebar/>
       <Hero/>
+      </div>
       <TodaysSection/>
       <Categories/>
     </div>
