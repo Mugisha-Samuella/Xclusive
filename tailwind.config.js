@@ -10,8 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-       colord:{
-        "secondary" : "#C91D22"
+       color:{
+        "secondary" : "#C91D22",
+        "primary" : "#DB4444"
        }
     },
   },
