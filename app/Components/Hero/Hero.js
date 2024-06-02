@@ -6,8 +6,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div className="px-6 pt-10 md:pt-0 flex flex-col">
-      <div className="text-white bg-black flex-col flex md:flex-row">
+    <div className="px-6 pt-10 md:pt-0 flex flex-col md:w-screen ">
+      <div className="text-white bg-black flex-col flex md:flex-row md:p-10 md:justify-between">
         <div className="p-4">
           <div className="flex flex-row gap-5 ">
             <FaApple style={{ width: "27px", height: "27px" }} />
@@ -28,7 +28,11 @@ const Hero = () => {
           </div>
         </div>
         <div>
-          <Image src={"/Assets/Images/heroimage.png"} width={900} height={900}/>
+          <Image
+            src={"/Assets/Images/heroimage.png"}
+            width={300}
+            height={300}
+          />
         </div>
       </div>
     </div>
