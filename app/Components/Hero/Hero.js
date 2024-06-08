@@ -7,7 +7,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const Hero = () => {
   return (
     <div className="px-6 pt-10 md:pt-0 flex flex-col md:w-screen ">
-      <div className="text-white bg-black flex-col flex md:flex-row md:p-10 md:justify-between">
+      <div className="text-white bg-black flex-col flex md:flex-row md:p-10 md:justify-between md:max-w-[900px]">
         <div className="p-4">
           <div className="flex flex-row gap-5 ">
             <FaApple style={{ width: "27px", height: "27px" }} />
