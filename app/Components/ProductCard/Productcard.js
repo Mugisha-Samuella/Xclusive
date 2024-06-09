@@ -16,13 +16,16 @@ const ProductCard = () => {
             className="rounded-lg"
             src={"/Assets/Images/heroimage.png"}
             alt="Play"
-            width={320}
+            width={370}
             height={50}
           />
         <div className="flex flex-row items-center justify-between">
           <div>
           <h1 className="text-slate-700 text-lg font-semibold">Denim Jacket</h1>
+          <div className="flex flex-row justify-center items-center">
           <ReactStars count={5} size={24} activeColor={"#ffd700"} />
+          <h2>	&#40;67&#41;</h2>
+          </div>
           </div>
           <div className="flex flex-row gap-2">
           <h1 className="text-primary font-bold">$31.50</h1>

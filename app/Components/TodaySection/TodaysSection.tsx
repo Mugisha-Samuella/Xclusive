@@ -25,7 +25,7 @@ const TodaysSection = () => {
             <Productcard />
             <Productcard />
           </div>
-          <div className="p-6">
+          <div className="p-7 pb-[3rem]">
             <button className="bg-primary hover:bg-lightprimary text-white p-4 px-8 rounded-md">
               View All Products
             </button>
