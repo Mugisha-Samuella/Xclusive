@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex flex-row justify-between pt-8 p-6">
         <h1 className="font-Inter font-bold text-xl ">Xclusive</h1>
         <ul className="hidden md:flex gap-10 font-Inter">          
-          <Link href="/" className="underline decoration-black decoration-4 underline-offset-[10px]">Home</Link>
+          <Link href="/home" className="underline decoration-black decoration-4 underline-offset-[10px]">Home</Link>
           <Link href="/products">Products</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/contact">About</Link>
