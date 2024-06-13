@@ -22,7 +22,7 @@ const Hero = () => {
                 <a href="#">Shop Now</a>
               </button>
               <IoIosArrowRoundForward
-                style={{ width: "23px", height: "23px" }}
+                style={{ width: "23px", height: "23px"}}
               />
             </div>
           </div>

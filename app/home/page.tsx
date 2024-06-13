@@ -4,6 +4,7 @@ import Sidebar from '../Components/Sidebar/Sidebar'
 import Hero from '../Components/Hero/Hero'
 import TodaysSection from '../Components/TodaySection/TodaysSection'
 import Categories from '../Components/Categories/Categories'
+import Footer from '../Components/footer/page'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       </div>
       <TodaysSection/>
       <Categories/>
+      <Footer/>
     </div>
   )
 }

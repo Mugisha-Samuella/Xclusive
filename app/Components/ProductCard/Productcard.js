@@ -32,7 +32,7 @@ const ProductCard = () => {
           <h1 className="text-slate-700 line-through">$35.00</h1>
           </div>
         </div>
-        <button className="bg-black text-white p-3 rounded-lg">Add to Cart</button>
+        <button className="bg-black hover:bg-neutral-700 text-white p-3 rounded-lg">Add to Cart</button>
       </div>
 
   );
